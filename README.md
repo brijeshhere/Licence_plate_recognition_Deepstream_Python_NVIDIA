@@ -1,4 +1,4 @@
-# Number Plate Recognition using NVIDIA DeepStream
+# RTSP Multi Camera Licence Plate Recognition using NVIDIA DeepStream
 
 This project demonstrates a real-time license plate detection and recognition system built using NVIDIA DeepStream SDK. It uses multiple neural networks in a pipeline to detect vehicles, locate license plates, and perform OCR to read the plate numbers.
 
