@@ -1,0 +1,381 @@
+TRT-100100-EntropyCalibration2
+
+input_1:0: 3c010a14
+
+conv1/convolution:0: 3d0c5615
+
+Reshape__97:0_output: 315cd28b
+
+ONNXTRT_Broadcast_output: 315cd28b
+
+conv1/BiasAdd:0: 3d0c5615
+
+bn_conv1/batchnorm/mul__10_output: 3e2e655d
+
+bn_conv1/batchnorm/mul_1:0: 3de7eaf3
+
+bn_conv1/batchnorm/sub__11_output: 3ccb52ee
+
+bn_conv1/batchnorm/add_1:0: 3ce47ab7
+
+activation_1/Relu:0: 3dd215b8
+
+block_1a_conv_shortcut/BiasAdd:0: 3d2b4b25
+
+block_1a_bn_shortcut/batchnorm/mul__22_output: 3e7318ab
+
+block_1a_bn_shortcut/batchnorm/mul_1:0: 3dbc3331
+
+block_1a_bn_shortcut/batchnorm/sub__23_output: 3d0bb7d2
+
+block_1a_bn_shortcut/batchnorm/add_1:0: 3c78dcc6
+
+block_1a_conv_1/convolution:0: 3e187b53
+
+Reshape__99:0_output: 3122a906
+
+ONNXTRT_Broadcast_1_output: 3122a906
+
+block_1a_conv_1/BiasAdd:0: 3e187b53
+
+block_1a_bn_1/batchnorm/mul__14_output: 3db71598
+
+block_1a_bn_1/batchnorm/mul_1:0: 3dc91f33
+
+block_1a_bn_1/batchnorm/sub__15_output: 3ce0dd2a
+
+block_1a_bn_1/batchnorm/add_1:0: 3d29bc7b
+
+block_1a_relu_1/Relu:0: 3d9fccbb
+
+block_1a_conv_2/convolution:0: 3d9c29d9
+
+Reshape__101:0_output: 314babab
+
+ONNXTRT_Broadcast_3_output: 314babab
+
+block_1a_conv_2/BiasAdd:0: 3d9c29d9
+
+block_1a_bn_2/batchnorm/mul__20_output: 3e730bf0
+
+block_1a_bn_2/batchnorm/mul_1:0: 3dac45bc
+
+block_1a_bn_2/batchnorm/sub__21_output: 3c87fb0c
+
+block_1a_bn_2/batchnorm/add_1:0: 3d30efb7
+
+add_1/add:0: 3d4d7766
+
+block_1a_relu/Relu:0: 3d89f300
+
+block_1b_conv_1/convolution:0: 3dc288e3
+
+Reshape__103:0_output: 3137a00a
+
+ONNXTRT_Broadcast_5_output: 3137a00a
+
+block_1b_conv_1/BiasAdd:0: 3dc288e3
+
+block_1b_bn_1/batchnorm/mul__26_output: 3e1e16d5
+
+block_1b_bn_1/batchnorm/mul_1:0: 3dbcfc1e
+
+block_1b_bn_1/batchnorm/sub__27_output: 3caa228d
+
+block_1b_bn_1/batchnorm/add_1:0: 3d2397b5
+
+block_1b_relu_1/Relu:0: 3d812eed
+
+block_1b_conv_2/convolution:0: 3d781cd4
+
+Reshape__105:0_output: 31bfe6d1
+
+ONNXTRT_Broadcast_7_output: 31bfe6d1
+
+block_1b_conv_2/BiasAdd:0: 3d781cd4
+
+block_1b_bn_2/batchnorm/mul__30_output: 3e3ea3c3
+
+block_1b_bn_2/batchnorm/mul_1:0: 3e10e023
+
+block_1b_bn_2/batchnorm/sub__31_output: 3d150131
+
+block_1b_bn_2/batchnorm/add_1:0: 3d15cb55
+
+add_2/add:0: 3d15cb55
+
+block_1b_relu/Relu:0: 3e1daef5
+
+block_2a_conv_shortcut/BiasAdd:0: 3d18ec6c
+
+block_2a_bn_shortcut/batchnorm/mul__42_output: 3e2c89e4
+
+block_2a_bn_shortcut/batchnorm/mul_1:0: 3d81408d
+
+block_2a_bn_shortcut/batchnorm/sub__43_output: 3c8020f0
+
+block_2a_bn_shortcut/batchnorm/add_1:0: 3cc1d1e6
+
+block_2a_conv_1/convolution:0: 3e0ed8a7
+
+Reshape__107:0_output: 3129195e
+
+ONNXTRT_Broadcast_9_output: 3129195e
+
+block_2a_conv_1/BiasAdd:0: 3e0ed8a7
+
+block_2a_bn_1/batchnorm/mul__34_output: 3e2843c9
+
+block_2a_bn_1/batchnorm/mul_1:0: 3dd02668
+
+block_2a_bn_1/batchnorm/sub__35_output: 3cbd0b5d
+
+block_2a_bn_1/batchnorm/add_1:0: 3d2af620
+
+block_2a_relu_1/Relu:0: 3de0309a
+
+block_2a_conv_2/convolution:0: 3d682b63
+
+Reshape__109:0_output: 31bf75e8
+
+ONNXTRT_Broadcast_11_output: 31bf75e8
+
+block_2a_conv_2/BiasAdd:0: 3d682b63
+
+block_2a_bn_2/batchnorm/mul__40_output: 3e436157
+
+block_2a_bn_2/batchnorm/mul_1:0: 3ddc7f20
+
+block_2a_bn_2/batchnorm/sub__41_output: 3ce51132
+
+block_2a_bn_2/batchnorm/add_1:0: 3d1fa03e
+
+add_3/add:0: 3d2e3a57
+
+block_2a_relu/Relu:0: 3dd8482e
+
+block_2b_conv_1/convolution:0: 3da07d10
+
+Reshape__111:0_output: 31907919
+
+ONNXTRT_Broadcast_13_output: 31907919
+
+block_2b_conv_1/BiasAdd:0: 3da07d10
+
+block_2b_bn_1/batchnorm/mul__46_output: 3e42e1c5
+
+block_2b_bn_1/batchnorm/mul_1:0: 3d7a24d8
+
+block_2b_bn_1/batchnorm/sub__47_output: 3caac6be
+
+block_2b_bn_1/batchnorm/add_1:0: 3d09c17c
+
+block_2b_relu_1/Relu:0: 3d6726db
+
+block_2b_conv_2/convolution:0: 3cffdc97
+
+Reshape__113:0_output: 314ccf1b
+
+ONNXTRT_Broadcast_15_output: 314ccf1b
+
+block_2b_conv_2/BiasAdd:0: 3cffdc97
+
+block_2b_bn_2/batchnorm/mul__50_output: 3e771808
+
+block_2b_bn_2/batchnorm/mul_1:0: 3df2e3e7
+
+block_2b_bn_2/batchnorm/sub__51_output: 3d23160f
+
+block_2b_bn_2/batchnorm/add_1:0: 3d272d06
+
+add_4/add:0: 3d31956f
+
+block_2b_relu/Relu:0: 3e03314e
+
+block_3a_conv_shortcut/BiasAdd:0: 3cc1607d
+
+block_3a_bn_shortcut/batchnorm/mul__62_output: 3eb5838f
+
+block_3a_bn_shortcut/batchnorm/mul_1:0: 3d7e70de
+
+block_3a_bn_shortcut/batchnorm/sub__63_output: 3c41d656
+
+block_3a_bn_shortcut/batchnorm/add_1:0: 3c89797b
+
+block_3a_conv_1/convolution:0: 3dd582cf
+
+Reshape__115:0_output: 317ecc43
+
+ONNXTRT_Broadcast_17_output: 317ecc43
+
+block_3a_conv_1/BiasAdd:0: 3dd582cf
+
+block_3a_bn_1/batchnorm/mul__54_output: 3e4c65c5
+
+block_3a_bn_1/batchnorm/mul_1:0: 3dba8004
+
+block_3a_bn_1/batchnorm/sub__55_output: 3c6bf771
+
+block_3a_bn_1/batchnorm/add_1:0: 3d2b03e4
+
+block_3a_relu_1/Relu:0: 3e136a44
+
+block_3a_conv_2/convolution:0: 3dcf7091
+
+Reshape__117:0_output: 314d17be
+
+ONNXTRT_Broadcast_19_output: 314d17be
+
+block_3a_conv_2/BiasAdd:0: 3dcf7091
+
+block_3a_bn_2/batchnorm/mul__60_output: 3e845bed
+
+block_3a_bn_2/batchnorm/mul_1:0: 3e04028c
+
+block_3a_bn_2/batchnorm/sub__61_output: 3cc2a535
+
+block_3a_bn_2/batchnorm/add_1:0: 3d4f2805
+
+add_5/add:0: 3d5ca6be
+
+block_3a_relu/Relu:0: 3e132850
+
+block_3b_conv_1/convolution:0: 3dd90a79
+
+Reshape__119:0_output: 3185398a
+
+ONNXTRT_Broadcast_21_output: 3185398a
+
+block_3b_conv_1/BiasAdd:0: 3dd90a79
+
+block_3b_bn_1/batchnorm/mul__66_output: 3e71e55d
+
+block_3b_bn_1/batchnorm/mul_1:0: 3d94cbf0
+
+block_3b_bn_1/batchnorm/sub__67_output: 3ce22cf0
+
+block_3b_bn_1/batchnorm/add_1:0: 3d13d34f
+
+block_3b_relu_1/Relu:0: 3dce0e91
+
+block_3b_conv_2/convolution:0: 3d2acc0c
+
+Reshape__121:0_output: 317cd73d
+
+ONNXTRT_Broadcast_23_output: 317cd73d
+
+block_3b_conv_2/BiasAdd:0: 3d2acc0c
+
+block_3b_bn_2/batchnorm/mul__70_output: 3edb5adc
+
+block_3b_bn_2/batchnorm/mul_1:0: 3e0aed89
+
+block_3b_bn_2/batchnorm/sub__71_output: 3d20e40d
+
+block_3b_bn_2/batchnorm/add_1:0: 3d4cac28
+
+add_6/add:0: 3d84b630
+
+block_3b_relu/Relu:0: 3e360010
+
+block_4a_conv_shortcut/BiasAdd:0: 3d1ac60e
+
+block_4a_bn_shortcut/batchnorm/mul__82_output: 3e6eec97
+
+block_4a_bn_shortcut/batchnorm/mul_1:0: 3dad8527
+
+block_4a_bn_shortcut/batchnorm/sub__83_output: 3c6bd529
+
+block_4a_bn_shortcut/batchnorm/add_1:0: 3cb3a37b
+
+block_4a_conv_1/convolution:0: 3e339d5a
+
+Reshape__123:0_output: 31bf8713
+
+ONNXTRT_Broadcast_25_output: 31bf8713
+
+block_4a_conv_1/BiasAdd:0: 3e339d5a
+
+block_4a_bn_1/batchnorm/mul__74_output: 3e5f53a2
+
+block_4a_bn_1/batchnorm/mul_1:0: 3e397814
+
+block_4a_bn_1/batchnorm/sub__75_output: 3ca27420
+
+block_4a_bn_1/batchnorm/add_1:0: 3ce36038
+
+block_4a_relu_1/Relu:0: 3e2881ee
+
+block_4a_conv_2/convolution:0: 3e15e3cf
+
+Reshape__125:0_output: 316e68b4
+
+ONNXTRT_Broadcast_27_output: 316e68b4
+
+block_4a_conv_2/BiasAdd:0: 3e15e3cf
+
+block_4a_bn_2/batchnorm/mul__80_output: 3e7e46b5
+
+block_4a_bn_2/batchnorm/mul_1:0: 3d9ecabf
+
+block_4a_bn_2/batchnorm/sub__81_output: 3c6bd552
+
+block_4a_bn_2/batchnorm/add_1:0: 3c8f5cd0
+
+add_7/add:0: 3d2c24f9
+
+block_4b_conv_1/convolution:0: 3e844264
+
+Reshape__127:0_output: 310d936e
+
+ONNXTRT_Broadcast_29_output: 310d936e
+
+block_4b_conv_1/BiasAdd:0: 3e844264
+
+block_4b_bn_1/batchnorm/mul__86_output: 3e609562
+
+block_4b_bn_1/batchnorm/mul_1:0: 3e232c56
+
+block_4b_bn_1/batchnorm/sub__87_output: 3bf27bf0
+
+block_4b_bn_1/batchnorm/add_1:0: 3d159910
+
+block_4b_relu_1/Relu:0: 3e2a9a64
+
+block_4b_conv_2/convolution:0: 3e3cfe32
+
+Reshape__129:0_output: 317899c4
+
+ONNXTRT_Broadcast_31_output: 317899c4
+
+block_4b_conv_2/BiasAdd:0: 3e3cfe32
+
+block_4b_bn_2/batchnorm/mul__90_output: 3f663b11
+
+block_4b_bn_2/batchnorm/mul_1:0: 3e24d7a9
+
+block_4b_bn_2/batchnorm/sub__91_output: 3d374e57
+
+block_4b_bn_2/batchnorm/add_1:0: 3de297c9
+
+add_8/add:0: 3e01dc59
+
+block_4b_relu/Relu:0: 3df43738
+
+output_cov/convolution:0: 3e91e2b8
+
+Reshape__131:0_output: 37250ef0
+
+ONNXTRT_Broadcast_33_output: 37250ef0
+
+output_cov/BiasAdd:0: 3e91e161
+
+output_cov/Sigmoid:0: 3befff04
+
+output_bbox/convolution:0: 3d827560
+
+Reshape__133:0_output: 3b2ae696
+
+ONNXTRT_Broadcast_36_output: 3b2ae696
+
+output_bbox/BiasAdd:0: 3d7be13e
