@@ -56,12 +56,12 @@
 gpu-id=0
 net-scale-factor=0.0039215697906911373
 model-color-format=0
-model-engine-file=/opt/nvidia/deepstream/deepstream-7.1/sources/host_save/Projects/Number_plate_recognition_Deepstream_OCR_NVIDIA/models/lpdetect/LPDNet_usa_pruned_tao5.onnx_b16_gpu0_int8.engine
-onnx-file=/opt/nvidia/deepstream/deepstream-7.1/sources/host_save/Projects/Number_plate_recognition_Deepstream_OCR_NVIDIA/models/lpdetect/LPDNet_usa_pruned_tao5.onnx
-labelfile-path=/opt/nvidia/deepstream/deepstream-7.1/sources/host_save/Projects/Number_plate_recognition_Deepstream_OCR_NVIDIA/models/lpdetect/labels_lpdnet.txt
-#tlt-encoded-model=/opt/nvidia/deepstream/deepstream-7.1/sources/host_save/Projects/Number_plate_recognition_Deepstream_OCR_NVIDIA/models/lpdetect/LPDNet_usa_pruned_tao5.onnx_b16_gpu0_int8.engine
+model-engine-file=models/lpdetect/LPDNet_usa_pruned_tao5.onnx_b16_gpu0_int8.engine
+onnx-file=models/lpdetect/LPDNet_usa_pruned_tao5.onnx
+labelfile-path=models/lpdetect/labels_lpdnet.txt
+#tlt-encoded-model=models/lpdetect/LPDNet_usa_pruned_tao5.onnx_b16_gpu0_int8.engine
 #tlt-model-key=nvidia_tlt
-int8-calib-file=/opt/nvidia/deepstream/deepstream-7.1/sources/host_save/Projects/Number_plate_recognition_Deepstream_OCR_NVIDIA/models/lpdetect/usa_cal_10.1.0.cal
+int8-calib-file=models/lpdetect/usa_cal_10.1.0.cal
 #uff-input-dims=3;480;640;0  #For us model, set to 3;480;640;0  For ccpd model, set to 3;1168;720;0
 #uff-input-blob-name=input_1
 batch-size=16

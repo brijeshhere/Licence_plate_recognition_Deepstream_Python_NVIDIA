@@ -64,7 +64,7 @@ bool NvDsInferParseCustomNVPlate(std::vector<NvDsInferLayerInfo> const &outputLa
     setlocale(LC_CTYPE, "");
 
     if(!dict_ready) {
-        fdict.open("/opt/nvidia/deepstream/deepstream-7.1/sources/host_save/Projects/Number_plate_recognition_Deepstream_OCR_NVIDIA/models/lprecog/labels_us.txt");
+        fdict.open("models/lprecog/labels_us.txt");
         if(!fdict.is_open())
         {
             cout << "open dictionary file failed." << endl;
